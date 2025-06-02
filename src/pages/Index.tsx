@@ -12,23 +12,23 @@ import FAQSection from "@/components/FAQSection";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-green-50">
       {/* Navigation */}
       <nav className="bg-white/90 backdrop-blur-sm shadow-sm sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-2">
-              <div className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white p-2 rounded-lg">
+              <div className="bg-gradient-to-r from-green-600 to-blue-600 text-white p-2 rounded-lg">
                 <Users className="h-6 w-6" />
               </div>
               <span className="text-xl font-bold text-gray-900">Edukom HR Solutions</span>
             </div>
             <div className="hidden md:flex space-x-8">
-              <a href="#home" className="text-gray-700 hover:text-blue-600 transition-colors">Home</a>
-              <a href="#about" className="text-gray-700 hover:text-blue-600 transition-colors">About</a>
-              <a href="#services" className="text-gray-700 hover:text-blue-600 transition-colors">Services</a>
-              <a href="#team" className="text-gray-700 hover:text-blue-600 transition-colors">Team</a>
-              <a href="#contact" className="text-gray-700 hover:text-blue-600 transition-colors">Contact</a>
+              <a href="#home" className="text-gray-700 hover:text-green-600 transition-colors">Home</a>
+              <a href="#about" className="text-gray-700 hover:text-green-600 transition-colors">About</a>
+              <a href="#services" className="text-gray-700 hover:text-green-600 transition-colors">Services</a>
+              <a href="#team" className="text-gray-700 hover:text-green-600 transition-colors">Team</a>
+              <a href="#contact" className="text-gray-700 hover:text-green-600 transition-colors">Contact</a>
             </div>
           </div>
         </div>
@@ -42,7 +42,7 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">Who We Are</h2>
-            <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-indigo-600 mx-auto mb-8"></div>
+            <div className="w-24 h-1 bg-gradient-to-r from-green-600 to-blue-600 mx-auto mb-8"></div>
           </div>
           
           <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -57,14 +57,14 @@ const Index = () => {
             <div className="grid grid-cols-2 gap-6">
               <Card className="text-center p-6 hover:shadow-lg transition-shadow">
                 <CardContent className="p-0">
-                  <Award className="h-12 w-12 text-blue-600 mx-auto mb-4" />
+                  <Award className="h-12 w-12 text-green-600 mx-auto mb-4" />
                   <h3 className="font-semibold text-gray-900 mb-2">20+ Years</h3>
                   <p className="text-sm text-gray-600">Experience</p>
                 </CardContent>
               </Card>
               <Card className="text-center p-6 hover:shadow-lg transition-shadow">
                 <CardContent className="p-0">
-                  <TrendingUp className="h-12 w-12 text-green-600 mx-auto mb-4" />
+                  <TrendingUp className="h-12 w-12 text-blue-600 mx-auto mb-4" />
                   <h3 className="font-semibold text-gray-900 mb-2">Multi-Industry</h3>
                   <p className="text-sm text-gray-600">Expertise</p>
                 </CardContent>
@@ -78,14 +78,14 @@ const Index = () => {
       <ServicesSection />
 
       {/* Vision, Mission & Values */}
-      <section className="py-20 bg-gradient-to-r from-blue-600 to-indigo-700 text-white">
+      <section className="py-20 bg-gradient-to-r from-green-600 to-blue-600 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-3 gap-12">
             {/* Vision */}
             <div className="text-center">
-              <Eye className="h-16 w-16 mx-auto mb-6 text-blue-200" />
+              <Eye className="h-16 w-16 mx-auto mb-6 text-green-200" />
               <h3 className="text-2xl font-bold mb-4">Vision</h3>
-              <p className="text-blue-100 leading-relaxed">
+              <p className="text-green-100 leading-relaxed">
                 To become the leading provider of comprehensive, cutting-edge HR solutions in Nigeria, that empowers organizations to optimize their human capital and achieve sustainable growth.
               </p>
             </div>
@@ -101,9 +101,9 @@ const Index = () => {
             
             {/* Values */}
             <div className="text-center">
-              <Heart className="h-16 w-16 mx-auto mb-6 text-blue-200" />
+              <Heart className="h-16 w-16 mx-auto mb-6 text-green-200" />
               <h3 className="text-2xl font-bold mb-4">Core Values</h3>
-              <div className="space-y-3 text-blue-100">
+              <div className="space-y-3 text-green-100">
                 <div className="flex items-center justify-center space-x-2">
                   <CheckCircle className="h-4 w-4" />
                   <span>Integrity</span>
@@ -145,7 +145,7 @@ const Index = () => {
           <div className="grid md:grid-cols-3 gap-8">
             <div>
               <div className="flex items-center space-x-2 mb-4">
-                <div className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white p-2 rounded-lg">
+                <div className="bg-gradient-to-r from-green-600 to-blue-600 text-white p-2 rounded-lg">
                   <Users className="h-6 w-6" />
                 </div>
                 <span className="text-xl font-bold">Edukom HR Solutions</span>

@@ -4,13 +4,13 @@ import { Button } from "@/components/ui/button";
 
 const HeroSection = () => {
   return (
-    <section id="home" className="pt-20 pb-32 bg-gradient-to-br from-slate-50 to-blue-50">
+    <section id="home" className="pt-20 pb-32 bg-gradient-to-br from-slate-50 to-green-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="animate-fade-in">
             <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
               Transform Your{" "}
-              <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-green-600 to-blue-600 bg-clip-text text-transparent">
                 HR Operations
               </span>
             </h1>
@@ -36,11 +36,11 @@ const HeroSection = () => {
             </div>
             
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" className="bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white group">
+              <Button size="lg" className="bg-gradient-to-r from-green-600 to-blue-600 hover:from-green-700 hover:to-blue-700 text-white group">
                 Get Started
                 <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
               </Button>
-              <Button variant="outline" size="lg" className="border-blue-600 text-blue-600 hover:bg-blue-50">
+              <Button variant="outline" size="lg" className="border-green-600 text-green-600 hover:bg-green-50">
                 Learn More
               </Button>
             </div>
@@ -51,7 +51,7 @@ const HeroSection = () => {
               <div className="bg-white rounded-2xl shadow-2xl p-8 border border-gray-100">
                 <div className="space-y-6">
                   <div className="flex items-center space-x-4">
-                    <div className="w-12 h-12 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-lg flex items-center justify-center">
+                    <div className="w-12 h-12 bg-gradient-to-r from-green-600 to-blue-600 rounded-lg flex items-center justify-center">
                       <CheckCircle className="h-6 w-6 text-white" />
                     </div>
                     <div>
@@ -61,7 +61,7 @@ const HeroSection = () => {
                   </div>
                   
                   <div className="flex items-center space-x-4">
-                    <div className="w-12 h-12 bg-gradient-to-r from-green-600 to-emerald-600 rounded-lg flex items-center justify-center">
+                    <div className="w-12 h-12 bg-gradient-to-r from-blue-600 to-green-600 rounded-lg flex items-center justify-center">
                       <CheckCircle className="h-6 w-6 text-white" />
                     </div>
                     <div>
@@ -71,7 +71,7 @@ const HeroSection = () => {
                   </div>
                   
                   <div className="flex items-center space-x-4">
-                    <div className="w-12 h-12 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg flex items-center justify-center">
+                    <div className="w-12 h-12 bg-gradient-to-r from-green-600 to-blue-600 rounded-lg flex items-center justify-center">
                       <CheckCircle className="h-6 w-6 text-white" />
                     </div>
                     <div>
@@ -84,8 +84,8 @@ const HeroSection = () => {
             </div>
             
             {/* Decorative elements */}
-            <div className="absolute -top-4 -right-4 w-72 h-72 bg-gradient-to-r from-blue-400 to-indigo-400 rounded-full opacity-10 blur-3xl"></div>
-            <div className="absolute -bottom-4 -left-4 w-72 h-72 bg-gradient-to-r from-purple-400 to-pink-400 rounded-full opacity-10 blur-3xl"></div>
+            <div className="absolute -top-4 -right-4 w-72 h-72 bg-gradient-to-r from-green-400 to-blue-400 rounded-full opacity-10 blur-3xl"></div>
+            <div className="absolute -bottom-4 -left-4 w-72 h-72 bg-gradient-to-r from-blue-400 to-green-400 rounded-full opacity-10 blur-3xl"></div>
           </div>
         </div>
       </div>

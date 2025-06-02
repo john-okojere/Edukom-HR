@@ -8,61 +8,61 @@ const ServicesSection = () => {
       icon: Users,
       title: "Recruitment and Selection",
       description: "Identifying and hiring the right talent for your organization.",
-      color: "from-blue-500 to-cyan-500"
+      color: "from-green-500 to-blue-500"
     },
     {
       icon: UserPlus,
       title: "Onboarding of New Employees",
       description: "Ensuring a smooth integration of new hires into your company culture.",
-      color: "from-green-500 to-emerald-500"
+      color: "from-blue-500 to-green-500"
     },
     {
       icon: BookOpen,
       title: "Training and Development",
       description: "Developing and improving employee skills to drive organizational growth.",
-      color: "from-purple-500 to-violet-500"
+      color: "from-green-600 to-blue-600"
     },
     {
       icon: Building2,
       title: "Organizational Structuring",
       description: "Crafting efficient, scalable structures for your business.",
-      color: "from-orange-500 to-red-500"
+      color: "from-blue-600 to-green-600"
     },
     {
       icon: BarChart3,
       title: "Workforce Planning",
       description: "Strategizing the right workforce to meet future needs.",
-      color: "from-teal-500 to-cyan-500"
+      color: "from-green-500 to-blue-500"
     },
     {
       icon: Search,
       title: "Gaps Analysis",
       description: "Identifying and addressing skill and resource gaps within your organization.",
-      color: "from-pink-500 to-rose-500"
+      color: "from-blue-500 to-green-500"
     },
     {
       icon: Target,
       title: "Performance Improvement Programs",
       description: "Implementing strategies to enhance employee performance.",
-      color: "from-indigo-500 to-purple-500"
+      color: "from-green-600 to-blue-600"
     },
     {
       icon: Briefcase,
       title: "Setting Up HR Department",
       description: "Assisting you in building an effective HR department from the ground up.",
-      color: "from-yellow-500 to-orange-500"
+      color: "from-blue-600 to-green-600"
     },
     {
       icon: Handshake,
       title: "Outsource Function Services",
       description: "Providing HR support and services on a contractual basis.",
-      color: "from-slate-500 to-gray-500"
+      color: "from-green-500 to-blue-500"
     },
     {
       icon: HeartHandshake,
       title: "Employee Relations Management",
       description: "Ensuring positive employee relations for a productive work environment.",
-      color: "from-emerald-500 to-green-500"
+      color: "from-blue-500 to-green-500"
     }
   ];
 
@@ -71,7 +71,7 @@ const ServicesSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">Services We Offer</h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-indigo-600 mx-auto mb-8"></div>
+          <div className="w-24 h-1 bg-gradient-to-r from-green-600 to-blue-600 mx-auto mb-8"></div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             We provide a wide range of HR consulting services, designed to help organizations optimize their human capital.
           </p>
@@ -84,7 +84,7 @@ const ServicesSection = () => {
                 <div className={`w-14 h-14 bg-gradient-to-r ${service.color} rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300`}>
                   <service.icon className="h-7 w-7 text-white" />
                 </div>
-                <CardTitle className="text-xl text-gray-900 group-hover:text-blue-600 transition-colors">
+                <CardTitle className="text-xl text-gray-900 group-hover:text-green-600 transition-colors">
                   {service.title}
                 </CardTitle>
               </CardHeader>
