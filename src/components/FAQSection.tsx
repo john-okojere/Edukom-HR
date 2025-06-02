@@ -1,4 +1,3 @@
-
 import { Plus, Minus } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/components/ui/collapsible";
@@ -14,7 +13,7 @@ const FAQSection = () => {
     },
     {
       question: "What makes Edukom HR Solutions different from other HR consulting firms?",
-      answer: "Our approach is holistic, focusing not just on HR processes but also on people and systems. With over 20 years of experience, international certifications, and a diverse team of consultants, we bring a wealth of expertise across multiple sectors. We also prioritize personalized service, ensuring that every solution is tailored to the unique needs of your business."
+      answer: "Our approach focuses on HR processes, people and systems. With over 20 years of experience, international certifications, and a diverse team of consultants, we bring a wealth of expertise across multiple sectors. We also prioritize personalized service, ensuring that every solution is tailored to the unique needs of your business."
     },
     {
       question: "How can I get started with Edukom HR Solutions?",

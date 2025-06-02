@@ -86,7 +86,7 @@ const Index = () => {
               <Eye className="h-16 w-16 mx-auto mb-6 text-green-200" />
               <h3 className="text-2xl font-bold mb-4">Vision</h3>
               <p className="text-green-100 leading-relaxed">
-                To become the leading provider of comprehensive, cutting-edge HR solutions in Nigeria, that empowers organizations to optimize their human capital and achieve sustainable growth.
+                To become the leading provider of comprehensive HR solutions in Nigeria, that empowers organizations to optimize their human capital and achieve sustainable growth.
               </p>
             </div>
             
