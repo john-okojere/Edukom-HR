@@ -57,8 +57,8 @@ const Index = () => {
         {/* Background Image */}
         <div className="absolute inset-0 opacity-5">
           <img 
-            src="https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" 
-            alt="Business collaboration background" 
+            src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" 
+            alt="African business professionals collaborating" 
             className="w-full h-full object-cover"
           />
         </div>
