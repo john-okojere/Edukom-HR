@@ -1,4 +1,3 @@
-
 import { Users, UserPlus, BookOpen, Building2, BarChart3, Search, Target, Briefcase, Handshake, HeartHandshake } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
@@ -9,14 +8,14 @@ const ServicesSection = () => {
       title: "Talent Acquisition & Selection",
       description: "Finding and attracting the right people who fit your company culture and values.",
       color: "from-green-500 to-blue-500",
-      image: "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
     },
     {
       icon: UserPlus,
       title: "New Employee Integration",
       description: "Welcoming new team members and helping them thrive from day one.",
       color: "from-blue-500 to-green-500",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+      image: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
     },
     {
       icon: BookOpen,
@@ -30,49 +29,49 @@ const ServicesSection = () => {
       title: "Organizational Design",
       description: "Building clear, effective structures that support your business goals.",
       color: "from-blue-600 to-green-600",
-      image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
     },
     {
       icon: BarChart3,
       title: "Strategic Workforce Planning",
       description: "Planning for the future by understanding your people needs and goals.",
       color: "from-green-500 to-blue-500",
-      image: "https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+      image: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
     },
     {
       icon: Search,
       title: "Skills & Capability Assessment",
       description: "Understanding where your team excels and where there's room for growth.",
       color: "from-blue-500 to-green-500",
-      image: "https://images.unsplash.com/photo-1521791136064-7986c2920216?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+      image: "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
     },
     {
       icon: Target,
       title: "Performance Enhancement",
       description: "Supporting your team to achieve their best work and reach their potential.",
       color: "from-green-600 to-blue-600",
-      image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
     },
     {
       icon: Briefcase,
       title: "HR Department Setup",
       description: "Building your HR foundation with the right people, processes, and practices.",
       color: "from-blue-600 to-green-600",
-      image: "https://images.unsplash.com/photo-1556157382-97eda2d62296?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+      image: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
     },
     {
       icon: Handshake,
       title: "HR Partnership Services",
       description: "Extending your team with experienced HR professionals who understand your business.",
       color: "from-green-500 to-blue-500",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+      image: "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
     },
     {
       icon: HeartHandshake,
       title: "Workplace Culture & Relations",
       description: "Creating positive, inclusive environments where everyone can do their best work.",
       color: "from-blue-500 to-green-500",
-      image: "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
     }
   ];
 
