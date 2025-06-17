@@ -1,4 +1,3 @@
-
 import { Mail, Phone, MapPin, Users, Target, Eye, Heart, CheckCircle, Award, BookOpen, TrendingUp } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -18,10 +17,11 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-2 animate-fade-in">
-              <div className="bg-gradient-to-r from-green-600 to-blue-600 text-white p-2 rounded-lg transform hover:scale-110 transition-transform duration-300">
-                <Users className="h-6 w-6" />
-              </div>
-              <span className="text-xl font-bold text-gray-900">Edukom HR Solutions</span>
+              <img 
+                src="/lovable-uploads/47496f13-f6e5-4b9d-848b-054906e2306e.png" 
+                alt="Edukom HR Solutions Logo" 
+                className="h-12 w-auto transform hover:scale-110 transition-transform duration-300"
+              />
             </div>
             <div className="hidden md:flex space-x-8">
               <a href="#home" className="text-gray-700 hover:text-green-600 transition-all duration-300 relative group">
@@ -179,10 +179,11 @@ const Index = () => {
           <div className="grid md:grid-cols-3 gap-8">
             <div className="animate-fade-in">
               <div className="flex items-center space-x-2 mb-4">
-                <div className="bg-gradient-to-r from-green-600 to-blue-600 text-white p-2 rounded-lg transform hover:scale-110 transition-transform duration-300">
-                  <Users className="h-6 w-6" />
-                </div>
-                <span className="text-xl font-bold">Edukom HR Solutions</span>
+                <img 
+                  src="/lovable-uploads/47496f13-f6e5-4b9d-848b-054906e2306e.png" 
+                  alt="Edukom HR Solutions Logo" 
+                  className="h-10 w-auto transform hover:scale-110 transition-transform duration-300"
+                />
               </div>
               <p className="text-gray-400">
                 Your one-stop center for organizational HR solutions.
