@@ -1,4 +1,3 @@
-
 import { Mail, Phone, MapPin, Users, Target, Eye, Heart, CheckCircle, Award, BookOpen, TrendingUp } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -57,8 +56,8 @@ const Index = () => {
         {/* Background Image */}
         <div className="absolute inset-0 opacity-5">
           <img 
-            src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" 
-            alt="African business professionals collaborating" 
+            src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" 
+            alt="African business professionals collaborating in modern office" 
             className="w-full h-full object-cover"
           />
         </div>
