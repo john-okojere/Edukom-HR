@@ -55,8 +55,12 @@ const TeamSection = () => {
             <div className="grid lg:grid-cols-3 gap-0">
               <div className="lg:col-span-1 bg-gradient-to-br from-blue-600 to-indigo-700 p-8 text-white">
                 <div className="text-center">
-                  <div className="w-32 h-32 bg-white/20 rounded-full mx-auto mb-6 flex items-center justify-center">
-                    <span className="text-4xl font-bold">OK</span>
+                  <div className="w-32 h-32 mx-auto mb-6 rounded-full overflow-hidden border-4 border-white/20">
+                    <img 
+                      src="/lovable-uploads/7e672ebf-2355-4fc5-928a-23aa402d6e0e.png" 
+                      alt="Ope Komolafe" 
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                   <h3 className="text-2xl font-bold mb-2">{principalPartner.name}</h3>
                   <p className="text-blue-100 text-center mb-4">{principalPartner.title}</p>
@@ -120,11 +124,21 @@ const TeamSection = () => {
           {faculty.map((member, index) => (
             <Card key={index} className="text-center hover:shadow-lg transition-shadow border-0 shadow-md">
               <CardContent className="p-6">
-                <div className="w-20 h-20 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-full mx-auto mb-4 flex items-center justify-center">
-                  <span className="text-xl font-bold text-white">
-                    {member.name.split(' ').map(n => n[0]).join('')}
-                  </span>
-                </div>
+                {member.name === "Ope Komolafe" ? (
+                  <div className="w-20 h-20 mx-auto mb-4 rounded-full overflow-hidden">
+                    <img 
+                      src="/lovable-uploads/7e672ebf-2355-4fc5-928a-23aa402d6e0e.png" 
+                      alt="Ope Komolafe" 
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                ) : (
+                  <div className="w-20 h-20 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-full mx-auto mb-4 flex items-center justify-center">
+                    <span className="text-xl font-bold text-white">
+                      {member.name.split(' ').map(n => n[0]).join('')}
+                    </span>
+                  </div>
+                )}
                 <h4 className="text-xl font-semibold text-gray-900 mb-2">{member.name}</h4>
                 <p className="text-blue-600 font-medium mb-1">{member.title}</p>
                 <p className="text-gray-600 text-sm mb-3">{member.company}</p>
